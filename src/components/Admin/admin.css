@@ -1,0 +1,123 @@
+.admin {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.admin h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+.addProduct {
+  width: 50%;
+}
+.admin form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  width: 500px;
+  color: white;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.admin form label {
+  width: 400px;
+}
+.admin form input {
+  padding: 10px;
+  border-radius: 10px;
+}
+.admin form textarea {
+  resize: none;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.admin form button {
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(75, 20, 84);
+  border: none;
+}
+.userAll h2 {
+  text-align: center;
+}
+.userAll {
+  width: 50%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  font-size: 18px;
+}
+.userAll ul {
+  display: flex;
+  flex-direction: column;
+}
+.userAll li {
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.products li {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.products li p:nth-child(2) {
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+li img {
+  width: 20px;
+  height: 20px;
+}
+
+.productsAll {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.productsAll ul .product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.productsAll .end {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+
+.productsAll h2 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.productsAll li p:nth-child(2) {
+  font-size: 20px;
+  width: 750px;
+}
+.productsAll li p:nth-child(3) {
+  width: 100px;
+}

@@ -1,0 +1,41 @@
+.registar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.registar form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  border: 2px solid white;
+  padding: 30px 20px;
+  border-radius: 18px;
+}
+.registar form input {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.registar form p {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.registar form label {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.registar button {
+  padding: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: none;
+}

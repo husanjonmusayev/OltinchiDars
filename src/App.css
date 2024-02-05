@@ -1,0 +1,68 @@
+.content {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+form img {
+  width: 30px;
+  height: 30px;
+}
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.content form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+form input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+nav a {
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+.Registar a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Bu yerga chiroyli hover o'ylab topaman  */
+
+/* .regi a:hover{
+      
+  } */
