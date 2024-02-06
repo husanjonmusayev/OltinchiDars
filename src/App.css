@@ -50,11 +50,11 @@ nav a {
 }
 nav a:hover {
   background-color: white;
-  color: black;
+  color: rgb(74, 68, 68);
 }
 .Registar a {
   text-decoration: none;
-  color: black;
+  color: rgb(105, 99, 99);
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 10px;

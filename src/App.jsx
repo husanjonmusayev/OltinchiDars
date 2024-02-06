@@ -4,12 +4,14 @@ import Sigin from "./components/Registar/Sigin";
 import Home from "./components/Home/Home";
 import Admin from "./components/Admin/Admin";
 import { useState } from "react";
+import Info from "./components/Info";
 
 function App() {
   const [data, setData] = useState([]);
   function getData(data) {
     setData(data);
   }
+  function hendalclick() {}
   return (
     <BrowserRouter>
       <div className="container">
@@ -23,7 +25,6 @@ function App() {
             <img src="/search.png" alt="search_icon" />
             <input type="text" />
           </form>
-
           <nav className="navBar">
             <ul>
               <li>
@@ -35,7 +36,7 @@ function App() {
             </ul>
           </nav>
           <div className="Registar">
-            <Link to="/Reg">sigin In</Link>
+            <Link to="/Reg">sign In</Link>
           </div>
         </div>
       </div>
@@ -43,6 +44,7 @@ function App() {
         <Route path="/" element={<Home click={getData} />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/Reg" element={<Sigin />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
     </BrowserRouter>
   );
